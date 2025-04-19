@@ -14,9 +14,9 @@ import PaymentGateway from "./pages/PaymentGateway";
 
 function App() {
   return (
-    <Router basename="/sanpranishop">
+    <Router>
       <Routes>
-        <Route path="/sanpranishop" element={<MenuPage />}/>
+        <Route path="/" element={<MenuPage />}/>
         <Route path="/saree" element={<SareePage />}/>
         <Route path="/kurta" element={<KurtaPage />}/>
         <Route path="/chuditar" element={<ChuditarPage />}/>
