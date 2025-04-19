@@ -1,6 +1,6 @@
 import React from "react";
 import ToDo from "./components/ToDo";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MenuPage from "./components/MenuPage";
 import SareePage from "./pages/SareePage";
@@ -14,9 +14,9 @@ import PaymentGateway from "./pages/PaymentGateway";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sanpranishop">
       <Routes>
-        <Route path="/" element={<MenuPage />}/>
+        <Route path="/sanpranishop" element={<MenuPage />}/>
         <Route path="/saree" element={<SareePage />}/>
         <Route path="/kurta" element={<KurtaPage />}/>
         <Route path="/chuditar" element={<ChuditarPage />}/>
