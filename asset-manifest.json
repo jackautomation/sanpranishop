@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17e7f8b7.css",
-    "main.js": "/static/js/main.be9dadc6.js",
+    "main.js": "/static/js/main.0641cd44.js",
     "static/media/Saree.png": "/static/media/Saree.a9d6c2383a620dc7e930.png",
     "static/media/saree3.png": "/static/media/saree3.a9d6c2383a620dc7e930.png",
     "static/media/bangle.jpg": "/static/media/bangle.060b9c418d64ef0d94bf.jpg",
@@ -14,10 +14,10 @@
     "static/media/jewellery.jpg": "/static/media/jewellery.4e1c2b6292594db4a556.jpg",
     "index.html": "/index.html",
     "main.17e7f8b7.css.map": "/static/css/main.17e7f8b7.css.map",
-    "main.be9dadc6.js.map": "/static/js/main.be9dadc6.js.map"
+    "main.0641cd44.js.map": "/static/js/main.0641cd44.js.map"
   },
   "entrypoints": [
     "static/css/main.17e7f8b7.css",
-    "static/js/main.be9dadc6.js"
+    "static/js/main.0641cd44.js"
   ]
 }
